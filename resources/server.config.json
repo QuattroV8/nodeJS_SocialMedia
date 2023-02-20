@@ -1,0 +1,25 @@
+{
+    "serverConfiguration" : {
+        "port" : 8080, 
+        "allowOrigin":[
+           "http://localhost:3000",
+           "http://localhost:4000",
+           "http://localhost:5000"
+        ]
+    },
+    "databaseConfiguration":{
+        "port":3306,
+        "host":"localhost",
+        "databaseName":"socialMediaServer",
+        "username":"root",
+        "password":"Wontolla",
+        "dialect":"mysql",
+        "logging":false,
+        "pool":{
+            "max":5,
+            "min":0,
+            "acquire":30000,
+            "idle":10000
+        }
+    } 
+}
